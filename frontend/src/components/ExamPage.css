@@ -1,0 +1,65 @@
+.exam-page {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+.exam-page h2,
+.exam-page h3 {
+  text-align: center;
+}
+
+.exam-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+}
+
+.exam-form button {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.exam-form button:hover {
+  background-color: #45a049;
+}
+
+.exam-list li {
+  background: #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.exam-buttons button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.exam-buttons .edit-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.exam-buttons .delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
